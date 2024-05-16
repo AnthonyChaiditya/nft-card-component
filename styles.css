@@ -1,0 +1,44 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+  font-family: 'Outfit';
+  padding: 4rem;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  background-color: hsl(215, 32%, 27%);
+  padding: 2rem;
+  border-radius: 3%;
+  margin-bottom: 1rem;
+}
+
+img {
+  border-radius: 3%;
+}
+
+.card-info p {
+  color: hsl(215, 32%, 80%)
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+#eth {
+  color: hsl(178, 100%, 50%)
+}
+
+#time {
+  color: hsl(215, 32%, 80%);
+  display: flex;
+  align-items: center;
+}
